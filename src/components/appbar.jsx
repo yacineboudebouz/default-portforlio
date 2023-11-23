@@ -14,7 +14,7 @@ const AppBar = () => {
         <div>
             <nav className="w-full  bg-firstBgColor fixed flex justify-between  z-50   top-0 py-7  sm:px-20 px-6 flex-row ">
                 <div className=" text-white font-bold">
-                    Nigga Portfolio
+                    Ni##a Portfolio
                 </div>
                 <div className=" sm:flex  sm:flex-row hidden ">
                     <ul

@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter } from 'react-router-dom';
 import MainSection from "./components/mainsection";
 import AppBar from "./components/appbar";
-import Anout from "./components/About";
+import About from "./components/About";
 function App() {
   return (
     <BrowserRouter >
@@ -11,7 +11,9 @@ function App() {
         <div className=" bg-cover bg-no-repeat bg-center">
           <AppBar />
           <MainSection />
-          <Anout />
+
+          <About />
+
         </div>
       </div>
     </BrowserRouter>
