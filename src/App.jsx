@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import MainSection from "./components/mainsection";
 import AppBar from "./components/appbar";
 import About from "./components/About";
+import Techs from "./components/Techs";
 function App() {
   return (
     <BrowserRouter >
@@ -13,6 +14,7 @@ function App() {
           <MainSection />
 
           <About />
+          <Techs />
 
         </div>
       </div>

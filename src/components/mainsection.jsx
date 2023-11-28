@@ -9,7 +9,7 @@ const MainSection = () => {
         <div className=" w-full sm:h-screen h-full  flex sm:flex-row flex-col-reverse sm:justify-between pb-8 sm:items-center sm:mt-0 mt-16">
             <dvi className="">
                 <motion.h1 variants={textVariant()} className=' text-white font-bold sm:text-[50px] text-[30px] sm:pt-0 pt-24'>Hi i am ni##a </motion.h1>
-                <motion.p className=' max-w-2xl my-8'>
+                <motion.p className=' max-w-2xl my-8' variants={textVariant()}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla explicabo est provident, odit dolorum quae saepe voluptatum
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores corrupti maxime nihil suscipit quapam harum esse facere, rem expedita dicta quidem, fugiat tempora inventore laboriosam voluptatem aliquam incidunt! Non, ullam.
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel fugit consequuntur hic sequi ducimus s
@@ -35,7 +35,7 @@ const MainSection = () => {
                     })}
                 </motion.div>
             </dvi>
-            <div className=' relative h-[300px] w-[300px]  bg-cover'>
+            <div className=' relative  h-[300px] w-[300px]  '>
 
                 <div className=' absolute top-[30px] left-[30px]  h-[300px] w-[300px] bg-secondBgColor'></div>
                 <img src={nigga} className=' absolute w-full h-full cover-fill   border-firstBgColor border-4' />
